@@ -1,0 +1,64 @@
+{
+  "aponeurosis": {
+    "source": "outputs/aponeurosis_model_v2/best_aponeurosis_model_v2.pt",
+    "source_epoch": 17,
+    "sha256": "a68d29cd2e0bcbd47b590d95737cae5a5dda6c3a921b76168cfec5480bc8091a",
+    "parts": [
+      {
+        "file": "aponeurosis.pt.part001",
+        "sha256": "21bedb5e1828d552d487284ad2103977994d849d930109bff6863038510fac68",
+        "bytes": 16777216
+      },
+      {
+        "file": "aponeurosis.pt.part002",
+        "sha256": "ee344b9d30b565b646d0f8a78833cb28a73ca785a7a04b7b916bab633128a402",
+        "bytes": 14334799
+      }
+    ],
+    "tensor_values_verified_identical": true
+  },
+  "orientation": {
+    "source": "notebooks/fascicle_recovered_uncertainty_v1_run/best.pt",
+    "source_epoch": 27,
+    "sha256": "4b0fbdd8831642fccac9c779d3fa11875817d062062b837944d9462e95f459db",
+    "parts": [
+      {
+        "file": "orientation.pt.part001",
+        "sha256": "7cf5a3aad83b86ea9d9f4ce10d397b68a7c88e5e2886a3972c53514c36d40944",
+        "bytes": 16777216
+      },
+      {
+        "file": "orientation.pt.part002",
+        "sha256": "180a93c36daee6b78bd1a7c4abe8d93f333d40289e2953110300b365de5c54b3",
+        "bytes": 14335123
+      }
+    ],
+    "tensor_values_verified_identical": true
+  },
+  "selection_support": {
+    "source": "notebooks/fascicle_recovered_uncertainty_v1_run/support_manual_v1/best_support.pt",
+    "source_epoch": 8,
+    "sha256": "8fe6ad243b62416486dae02f6c09098a8051136cefc0f35c8aae37215711acaa",
+    "parts": [
+      {
+        "file": "selection_support.pt.part001",
+        "sha256": "8fe6ad243b62416486dae02f6c09098a8051136cefc0f35c8aae37215711acaa",
+        "bytes": 20957
+      }
+    ],
+    "tensor_values_verified_identical": true
+  },
+  "measurement_support": {
+    "source": "notebooks/fascicle_recovered_uncertainty_v1_run/support_apo_detected_20261112_180130_634276/best_support.pt",
+    "source_epoch": 15,
+    "sha256": "90112a1fe43b3a0f50006057b5b27395532331339eff5db41ae385c246dcf28f",
+    "parts": [
+      {
+        "file": "measurement_support.pt.part001",
+        "sha256": "90112a1fe43b3a0f50006057b5b27395532331339eff5db41ae385c246dcf28f",
+        "bytes": 20957
+      }
+    ],
+    "tensor_values_verified_identical": true
+  }
+}
