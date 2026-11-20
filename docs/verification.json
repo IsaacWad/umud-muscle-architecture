@@ -1,0 +1,18 @@
+{
+  "unchanged_source_modules": 19,
+  "four_checkpoint_tensors_preserved_without_precision_changes": true,
+  "all_checkpoint_part_and_combined_checksums_verified": true,
+  "model_state_and_v8_import_checks_passed": true,
+  "final_submission_byte_identical": true,
+  "final_rows": 309,
+  "weighted_pa_audit_agreement_rows": 309,
+  "meaningful_fl_mt_change_vs_verified_baseline": [
+    "IMG_00293.png"
+  ],
+  "final_export_replay_max_numeric_difference": 0,
+  "inference_run": false,
+  "training_run": false,
+  "exact_final_interactive_code_recovered": false,
+  "source_compiles": true,
+  "notebooks_in_package": false
+}
